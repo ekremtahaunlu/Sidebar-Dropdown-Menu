@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Sidebar Dropdown Menu</title>
+  </head>
+  <body>
+    <nav class="sidebar">
+      <a href="#" class="logo">Ekrem Taha</a>
+
+      <div class="menu-content">
+        <ul class="menu-items">
+          <div class="menu-title">Don't forget to follow!</div>
+
+          <li class="item">
+            <a href="https://instagram.com/ekremtahamusic">Instagram</a>
+          </li>
+          <li class="item">
+            <div class="submenu-item">
+              <span>Social Media</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Social Media
+              </div>
+              <li class="item">
+                <a href="https://instagram.com/ekremtahamusic">Instagram</a>
+              </li>
+              <li class="item">
+                <a href="https://twitter.com/ektnll">Twitter</a>
+              </li>
+              <li class="item">
+                <a href="https://github.com/ekremtahaunlu">Github</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="item">
+            <div class="submenu-item">
+              <span>Projects</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Projects
+              </div>
+              <li class="item">
+                <a
+                  href="https://github.com/ekremtahaunlu/registration-form-clone.git"
+                  >Registration Form Clone</a
+                >
+              </li>
+              <li class="item">
+                <a href="https://github.com/ekremtahaunlu/spotify-clone.git"
+                  >Spotify Clone</a
+                >
+              </li>
+              <li class="item">
+                <a
+                  href="https://github.com/ekremtahaunlu/Responsive-Personal-Portfolio-Website.git"
+                  >Portfolio Website</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <a href="https://instagram.com/ekremtahamusic">Twitter</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="navbar">
+      <i class="fa-solid fa-bars" id="sidebar-close"></i>
+    </nav>
+
+    <main class="main">
+      <h1>Admin Dashboard Content</h1>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
